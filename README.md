@@ -12,7 +12,7 @@ I am truly grateful to mouseless for his contribution and for introducing us to 
 
 I might push some critical fixes/improvements if I find time and that is it.
 
-If you deseperately need help and are willing to pay for my time (very expensive), you can contact me at MevSando@ifiva.com
+If you desperately need help and are willing to pay for my time (very expensive), you can contact me at MevSando@ifiva.com
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
