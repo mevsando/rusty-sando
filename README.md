@@ -1,4 +1,22 @@
-# Rusty-Sando (re-write) ![license](https://img.shields.io/badge/License-MIT-green.svg?label=license) ![twitter](https://img.shields.io/twitter/follow/0xMouseless?style=social)
+# Rusty-Sando (re-write) ![license](https://img.shields.io/badge/License-MIT-green.svg?label=license) 
+
+This repo was originally a fork of https://github.com/mouseless-eth/rusty-sando by mouseless 
+
+![twitter](https://img.shields.io/twitter/follow/0xMouseless?style=social)
+
+I am truly grateful to mouseless for his contribution and for intrdocing us to state of the art MEV Sandwich bots.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+# Please note that I will not be actively fixing bugs and addressing issues here. 
+
+I might push some critical fixes/improvements if I find time and that is it.
+
+If you deseperately need help and are willing to pay for my time (very expensive), you can contact me at MevSando@ifiva.com
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
 A practical example on how to perform V2/V3 and multi-meat sandwich attacks written using Rust and Huff.
 
 The goal of this repo is to act as reference material for aspiring searchers. 
