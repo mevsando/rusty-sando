@@ -4,7 +4,7 @@ This repo was originally a fork of https://github.com/mouseless-eth/rusty-sando 
 
 ![twitter](https://img.shields.io/twitter/follow/0xMouseless?style=social)
 
-I am truly grateful to mouseless for his contribution and for intrdocing us to state of the art MEV Sandwich bots.
+I am truly grateful to mouseless for his contribution and for introducing us to state of the art MEV & Sandwich bots.
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
