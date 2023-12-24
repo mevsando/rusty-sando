@@ -6,10 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-
 ## eth
-ethers = { version = "2", features = ["ws", "rustls"]}
-ethers-flashbots = { git = "https://github.com/onbjerg/ethers-flashbots", features = ["rustls"] }
+ethers.workspace = true
+ethers-flashbots.workspace = true
+ethers-etherscan = {version = "2.0.7", default-features = false }
 
 ## async
 async-trait = "0.1.64"

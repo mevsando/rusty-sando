@@ -25,10 +25,10 @@ thiserror = "1.0.37"
 futures = "0.3.5"
 
 # EVM based crates
-cfmms = "0.6.2"
-ethers-flashbots = { git = "https://github.com/onbjerg/ethers-flashbots" }
-ethers = {version = "2.0.7", features = ["abigen", "ws"]}
-revm = "3.3.0"
+cfmms.workspace = true
+ethers = {workspace= true, features = ["ws", "rustls"]}
+ethers-flashbots.workspace = true
+revm = { git="https://github.com/bluealloy/revm", default-features = false  , branch="release/v25" }
 
 # logging
 indoc = "2"

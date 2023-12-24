@@ -1,6 +1,29 @@
 [workspace]
-members = [
+members = [   
     "crates/artemis-core",
     "crates/strategy",
     "sando-bin"
 ]
+
+
+
+[workspace.dependencies]
+
+## ethers
+ethers-flashbots = { version="0.14.0" }
+ethers = { version = "2.0.7", features = ["ws", "rustls"] }
+
+
+## alloy
+cfmms = { git = "https://github.com/mouseless-eth/cfmms-rs.git", branch = "fix-serialize-dex-fee"}
+
+
+
+[patch.crates-io]
+revm = { git="https://github.com/bluealloy/revm", default-features = false  , branch="release/v25" }
+revm-primitives = { git="https://github.com/bluealloy/revm", default-features = false  , branch="release/v25"}
+revm-precompile = { git="https://github.com/bluealloy/revm", default-features = false  , branch="release/v25"}
+revm-interpreter = { git="https://github.com/bluealloy/revm", default-features = false  , branch="release/v25" }
+
+
+ethers-core = { git="https://github.com/gakonst/ethers-rs", version="=2.0.7", rev="7b7c62327303866319a8b9ea84de517eef70dc09" }

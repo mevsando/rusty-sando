@@ -15,12 +15,14 @@ anyhow = "1.0.70"
 serde = "1.0.145"
 
 # EVM based crates
-cfmms = { git = "https://github.com/mouseless-eth/cfmms-rs.git", branch = "fix-serialize-dex-fee"}
-ethers-flashbots = { git = "https://github.com/onbjerg/ethers-flashbots"}
-ethers = {version = "2.0.7", features = ["abigen", "ws"]}
-foundry-evm = { git = "https://github.com/mouseless-eth/foundry.git", branch = "ethers-version-change" }
-anvil = { git = "https://github.com/mouseless-eth/foundry.git", branch = "ethers-version-change" }
+cfmms.workspace = true
+ethers-flashbots.workspace = true
+ethers.workspace = true
+foundry-evm = { git = "https://github.com/mouseless-eth/foundry.git", rev="be23f81dc9071431ed57b69aeefee8ada19eaec0"}
+anvil = { git = "https://github.com/mouseless-eth/foundry.git", rev="be23f81dc9071431ed57b69aeefee8ada19eaec0"}
 eth-encode-packed = "0.1.0"
+alloy-primitives = "0.5.0"
+ethers-etherscan = {version = "2.0.7", default-features = false }
 
 # Logging
 colored = "2.0.0"
